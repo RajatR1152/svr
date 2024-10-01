@@ -6,7 +6,7 @@ const bcrypt = require('bcrypt');
 const users = require('./modules/user');
 const tasks = require('./modules/TaskModule');
 const jwt = require('jsonwebtoken');
-const jwtscerete = "secrete124";
+const jwtscerete = "rxtoken32";
 const port = 5001;
 
 app.use(cors());
